@@ -1,0 +1,16 @@
+{
+  "name": "postman-CI-Demo",
+  "version": "1.0.0",
+  "description": "Node project to Store collections",
+  "scripts": {
+    "api-tests": "newman run Collection1.json --reporters=htmlextra --reporter-html-export :"newman/myHTMLreport.html""
+  },
+  "keywords": [
+    "Postman",
+    "CI"
+  ],
+  "author": "Prawin MV",
+  "dependencies": {
+  "newman": "5.1.2"
+  }
+}
